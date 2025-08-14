@@ -1,0 +1,332 @@
+a.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    overflow-x: hidden;
+}
+li ul{
+    font-size: 18px;
+}
+div.home{
+    background-color: #eee;
+    width: 100%;
+    height: 100vh;
+}
+nav.navbar{
+position: fixed;
+top: 0;
+z-index: 9999;
+width: 100%;
+}
+.dish
+{
+    overflow: hidden;
+}
+div.dish img{
+    width: 460px;
+    margin-left: 50px;
+}
+.dish img:hover
+{
+        animation: swam 0.5s linear;
+}
+div.hidder{
+padding-top: 130px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.hidder h1{
+padding-right: 60px;
+}
+.hidder p{
+    padding-right: 40px;
+}
+.hidder button:hover{
+    background-color: red;
+    
+}
+
+.hidder button{
+    color: white;
+background-color: rgb(206, 18, 18);;
+width: 120px;
+height: 7vh;
+border: none;
+border-radius: 0px 25px 25px 25px;
+transition: .5s linear;
+}
+
+
+
+@keyframes swam {
+    0%
+    {
+        transform: translate(1px ,1px) rotate(0deg);
+    }
+    20%
+    {
+        transform: translate(2px ,2px) rotate(1deg);
+    }
+    40%
+    {
+        transform: translate(3px ,3px) rotate(2deg);
+    }
+        60%
+    {
+        transform: translate(2px ,2px) rotate(1deg);
+    }
+            80%
+    {
+        transform: translate(1px ,1px) rotate(0deg);
+    }
+            100%
+    {
+        transform: translate(0px ,0px) rotate(0deg);
+    }
+}
+.chef{
+    text-align: center;
+    width: 340px !important;
+text-align:center;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin-left: 20px;
+transition:.5s linear;
+border-radius: 15px;
+overflow: hidden;
+}
+.chef:hover{
+transform: scale(1.05);
+
+}
+.chef img
+{
+    width: 100%;
+
+    border-radius: 15px;
+}
+.flex{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+
+}
+.chef p{
+    font-size: 13px;
+    color: #7f7f90;
+}
+.chef h2{
+    font-size: 20px;
+}
+.img
+{
+    position: relative;
+}
+.img .wave
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+p.prg{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.gallery
+{
+    width: 100%;
+    background-color:#eee;
+    margin-top: 100px;
+    padding-bottom: 70px;
+}
+.food{
+    width: 350px;
+    margin-right: 10px;
+    margin-top: 22px;
+    position: relative;
+     overflow: hidden;
+}
+.food img{
+    width: 100%;
+    border: 5px solid #fff;
+}
+.flexy
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div.text h3{
+    font-size: 22px;
+}
+div.text{
+    position: absolute;
+    top: 600px;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.452);
+width: 100%;
+height: 100%;
+left: 0;
+right: 0;
+bottom: 0;
+color: white;
+display: flex;
+flex-direction: column;
+transition: .5s linear;
+justify-content: center;
+}
+.text p{
+    padding-left: 10px;
+padding-right: 10px;
+
+}
+.food:hover .text
+{
+    top: 0;
+}
+div.contact{
+  
+    padding-top: 50px;
+    font-size: 15px;
+}
+.contact iframe{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+div.Call{
+    background-color:  hsl(0, 0%, calc(100% - 4%));
+    width: 500px;
+    margin-left: 30px;
+    padding: 20px;
+}
+.inform{
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.form input{
+  width: 100%; 
+ padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Supject input{
+    width: 100%;
+     margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+textarea{
+    width:100%;
+}
+.send button{
+color: white;
+background-color: red;    
+text-align: center;
+margin: auto;
+display: block;
+padding: 10px;
+margin-top: 10px;
+border: none;
+}
+.SocialMedia{
+background-image:url("./textured-metal-background.jpg") ;
+width: 100%;
+background-size: cover;
+color: white;
+padding-top: 50px;
+}
+.SocialMedia img{
+    width: 50px;
+}
+.mealify{
+    display: flex;
+}
+.mealify h2{
+ padding-left: 10px;
+}
+button{
+    background-color: red;
+    color: white;
+    border:none; 
+    width: 100px;
+    height: 30px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.list p{
+    width: 250px;
+    transition: .5s linear;
+    cursor: pointer;
+}
+.list p:hover
+{
+    padding-left: 10px;
+background-color: #cccccc86;
+}
+@media(max-width:430px)
+{
+   div.dish img{
+    width: 100%;
+    padding-bottom: 30px;
+    margin: auto;
+    text-align: center;
+   } 
+   .hidder
+   {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    
+   }
+}
+@media(max-width:430px){
+    .contact{
+width: 450px;
+    }
+   .contact iframe{
+    width: 450px;
+   } 
+   .row{
+    justify-content: center;
+align-items: center;
+   }
+   .food{
+width: 100%;
+   }
+   
+}
+@media(max-width:430px){
+
+.chef{
+  margin-top: 50px !important;
+}
+.home{
+    padding-bottom: 150px !important;
+    height: 110vh !important;
+}
+}
+.SocialMedia input{
+width: 280px;
+height: 40px;
+}
